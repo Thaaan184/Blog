@@ -1072,3 +1072,7 @@ footer .wrapper { text-align: center; }
   .footer-link { margin-bottom: 0.3rem; }
 
 }
+
+.dark-theme .logo-container img[src*="logo.png"] {
+  filter: brightness(0) invert(1);
+}
